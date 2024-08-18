@@ -1,0 +1,90 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+
+}
+head {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    background-image:url(../multimedia/room.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+main {
+    font-size: 1.2em; 
+}
+header {
+    background-color: rgb(78, 77, 75);
+    padding-top: 1em;
+}
+h1 {
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 4px white;
+   
+}
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 1em 0;    
+}
+header nav ul li {
+    display: inline;
+    padding: 0;
+    margin: 0 0.5em;
+}
+.nav_link {
+    color: lightgreen;
+    text-decoration: none;
+    
+}
+.nav_link:visited {
+    color: yellow;
+    
+}
+h2 {
+    color: rgb(45, 10, 243);
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+p {
+    padding: 0 1em;
+    text-decoration: solid;
+    text-align: justify;
+    background-color: rgb(217, 224, 230);
+    color: rgb(0, 0, 0);
+}
+#table_images {
+    padding: 1em;
+}
+#table_images td {
+    padding: 1em;
+}
+#table_images img {
+    border: 5px solid black;
+    transition: transform .3s;
+}
+#table_images img:hover {
+    transform: scale(1.2);
+}
+footer {
+    background-color: rgb(78, 77, 75);
+    padding: 0.3em;
+}
+footer ul {
+    text-align: center;
+    list-style: none;
+}
+footer ul li {
+    display: inline;
+    padding: 0 1em;
+}
+footer img {
+    width: 1.5em;
+    border: 7px solid rgb(148, 143, 143);
+    background-color: rgb(148, 143, 143);
+}
